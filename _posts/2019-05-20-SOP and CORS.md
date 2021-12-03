@@ -10,7 +10,7 @@ When we visit a website you cant notice what are resources are fetched in backen
 To find the list of resource used in the website you should monitor the network activity of that specifice website.  
 This can be done by pressing F12 and then navigate to Network tab.  
 
-![cors network tab](https://user-images.githubusercontent.com/17383454/67632536-9e094280-f8ca-11e9-8fbf-acd4ce9b221b.png)
+
 
 
 In this case an website may request resources from different origin.  
