@@ -20,7 +20,7 @@ timezone: Asia/Kolkata
 
 title: Prakash Kumar                          # the main title
 
-#tagline: A text-focused Jekyll theme   # it will display as the sub-title
+tagline: Security Analyst   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   Security Blog
