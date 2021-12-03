@@ -1,6 +1,6 @@
 ---
 title: PPA VS Normal
-date: 2019-01-27 07:08:00 +/-TTTT
+date: 2019-01-27 07:08:00 +0800
 categories: [General, Linux ]
 tags: [linux]     # TAG names should always be lowercase
 ---
