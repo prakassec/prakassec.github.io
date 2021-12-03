@@ -1,9 +1,8 @@
 ---
-layout: post
 title: PPA VS Normal
-date: 2019-01-27 07:08:00
-categories: Linux
-desc: Installation of packages using two different method
+date: 2019-01-27 07:08:00 +/-TTTT
+categories: [General, Linux ]
+tags: [linux]     # TAG names should always be lowercase
 ---
 
 **How does the following installation are differ from one another?**
