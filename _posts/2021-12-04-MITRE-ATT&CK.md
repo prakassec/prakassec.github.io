@@ -6,10 +6,10 @@ tags: [soc]     # TAG names should always be lowercase
 ---
 
 **Hello World**  
-MITRE    
+
 As a security analyst/cyber security person we might know about MITRE as a framework, but the actual intent of MITRE is safety,stability and well-being of nation(includes cyber space, artificial intelligence)
 
-Actually i'm also new to the defense field, so in one of the job posting i do see that their requirement involves multiple frameworks which used in blue team.  
+Actually i'm also new to the defense field, every level of defense position will demand a good understanding on MITRE framework. So i tried to explain a basic overview about this in this post
 
 ```Understanding of industry standard threat frameworks (Lockheed Martin Cyber Kill Chain, Diamond Model, MITRE ATT&CK)```
 
@@ -26,7 +26,10 @@ From the above mentioned link we can find the navigation of ATT&CK metrices
 
 It can be modified and added to the teams need in the organisation  
 
-To summarize, we can use the ATT&CK Matrix to map a threat group to their tactics and techniques.  There are various methods the search can be initiated. The questions below will help you become more familiar with the ATT&CK®. It is recommended to start answering the questions from the Phishing page.  
+To summarize, we can use the ATT&CK Matrix to map a threat group to their tactics and techniques.  There are various methods the search can be initiated. 
+
+
+![search option usage](https://drive.google.com/uc?export=view&id=1WOdK2fn4bxhpnc8RtSBku6_zQCnalXDH)  
 
 **It was also built on github pages like this blog**
 
