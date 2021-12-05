@@ -1,10 +1,10 @@
 ---
-layout: post
 title: Burp suite configuration
 date: 2019-05-05 12:16:12
-categories: WebApplication 
-desc: Burpsuite intro & configuration
+categories: [VAPT, Configuration ]
+tags: [vapt]     # TAG names should always be lowercase
 ---
+
 **Getting started with Burp suite**
 
 Burp suite is a tool which is used in penetration testing. It contains collection of tools used to analyse a web application.  
