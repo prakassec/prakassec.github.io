@@ -1,9 +1,10 @@
 ---
-layout: post
 title: Cross Site Scripting
 date: 2020-01-07 21:42:00
-desc: Intro about XSS
+categories: [VAPT, XSS_1 ]
+tags: [vapt]     # TAG names should always be lowercase
 ---
+
 **XSS**
 
 XSS is most common because of user input is validated or encoded.  
