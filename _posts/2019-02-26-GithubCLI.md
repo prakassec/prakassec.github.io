@@ -1,10 +1,11 @@
 ---
-layout: post
 title: Github CommandLineInterface
 date: 2019-02-26 20:13:12
-categories: WebApplication
-desc: A general post about CLI vs GUI interface of github
+categories: [General, Linux ]
+tags: [linux]     # TAG names should always be lowercase
 ---
+
+
 
 **Post after long time**  
 
