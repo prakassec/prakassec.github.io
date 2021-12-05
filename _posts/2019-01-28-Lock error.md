@@ -1,10 +1,10 @@
 ---
-layout: post
 title: Lock error
 date: 2019-01-28 21:08:00
-categories: Linux
-desc: Lock error message during package installation
+categories: [General, Linux ]
+tags: [linux]     # TAG names should always be lowercase
 ---
+
 When you started using ubuntu and tried to install some package you will came across the following error and got frustated. <br />  
 
 
