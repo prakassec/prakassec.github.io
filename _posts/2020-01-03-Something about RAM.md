@@ -1,9 +1,10 @@
 ---
-layout: post
 title: Something about RAM
 date: 2020-01-03 17:49:00
-desc: Basic info about RAM
+categories: [General, Configuration ]
+tags: [general]     # TAG names should always be lowercase
 ---
+
 **Why this post**  
 
 When i planned to upgrade my Ram i faced some issues like what is my ram type, is it suitable for my motherboard, how many slot will be in my motherboard.  
