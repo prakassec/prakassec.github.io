@@ -1,10 +1,10 @@
 ---
-layout: post
 title: Something about apt
 date: 2019-05-03 19:39:12
-categories: Linux 
-desc: Basic information about apt command
+categories: [General, Linux ]
+tags: [linux]     # TAG names should always be lowercase
 ---
+
 **Hello,** (I hope there is someone in the world reading this post)
 
 One fine day, when i try to install some application for my ubuntu machine. I do an update and try to install that specific application.  
