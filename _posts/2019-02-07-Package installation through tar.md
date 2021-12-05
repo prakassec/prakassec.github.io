@@ -1,10 +1,11 @@
 ---
-layout: post
 title: Package installation from the tar file
 date: 2019-02-07 20:35:00
-categories: Linux
-desc: Installation of a package from the tar file.
+categories: [General, Linux ]
+tags: [linux]     # TAG names should always be lowercase
 ---
+
+
 Hi, I tried to install sublime text in my kali machine, while doing that i face some challenges which are documented here.  
 If you are a linux beginner then this post will help you.
 
