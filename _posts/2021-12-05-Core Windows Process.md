@@ -45,7 +45,8 @@ PID for other process will be assign at random
 System process is home for special kind of threads that runs only in **kernel-mode**
 
 >
-Windows has two modes: `usermode and kernel mode`   
+Windows has two modes: `usermode and kernel mode`  
+
 ## Usermode  
 Application run in usermode and os components run in kernel mode  
 Each application will allocate with private virtual address space and private handle table  
