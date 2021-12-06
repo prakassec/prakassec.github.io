@@ -46,18 +46,14 @@ System process is home for special kind of threads that runs only in **kernel-mo
 
 >
 Windows has two modes: `usermode and kernel mode`  
-
 ## Usermode  
 Application run in usermode and os components run in kernel mode  
 Each application will allocate with private virtual address space and private handle table  
 So one applicatin cant alter other and if it crashed it will limited to that only  
-
 ## Kernel mode  
 Few drivers run in usermode and other run in kernel mode  
 Single virtual address space is shared by all drivers  
 If a drivers a wrong data on virtual address space it will also impact other drivers  
-
-
 ![User mode and kernel mode-from ms blog](https://docs.microsoft.com/en-us/windows-hardware/drivers/gettingstarted/images/userandkernelmode01.png)  
 
 
