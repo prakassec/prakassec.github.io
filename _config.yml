@@ -29,10 +29,10 @@ description: >-                        # used by seo meta and the atom feed
 url: 'https://prakassec.github.io/'
 
 github:
-  username: https://github.com/prakassec            # change to your github username
+  username: prakassec            # change to your github username
 
 twitter:
-  username: https://twitter.com/prakassec          # change to your twitter username
+  username: prakassec          # change to your twitter username
 
 social:
   # Change to your full name.
