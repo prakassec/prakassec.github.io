@@ -5,4 +5,7 @@ order: 4
 ---
 
 
-> **Note**: Add Markdown syntax content to file `_tabs/about.md` and it will show up on this page.
+An securirty enthusiast, learning about different areas of security. Spend most of my early career on Red teaming activity. Currently focusing on Blue team.  
+Doing lot of mistakes and learning from those.  
+
+
