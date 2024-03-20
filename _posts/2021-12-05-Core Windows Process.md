@@ -14,7 +14,7 @@ I do closely worked with the AV signature team, from my observation if we didnt 
 
 
 # Task Manager  
-Most of the windows users were already aware of taskmanager. So i will go deep into that.  
+Most of the windows users were already aware of taskmanager. So i will not go deep into that.  
 From task manager, Each process falls into 1 of 3 categories (Apps, Background process, or Windows process).  
 
 But as a analyse point of view, taskmanager has few limitations.
@@ -23,14 +23,14 @@ But as a analyse point of view, taskmanager has few limitations.
 
 For example in the below screenshot from tryhackme lab, we do see that PID 384 is paired with a process named svchost.exe  
 
-![Task Manager](https://drive.google.com/uc?export=view&id=1fsGYIiAYWL5rBvIR9Tn8O_6hRvziZ5X3)  
+![Task Manager](https://drive.google.com/thumbnail?id=1fsGYIiAYWL5rBvIR9Tn8O_6hRvziZ5X3&sz=w1000)  
 
 
-![Task Manager detailed view of path](https://drive.google.com/uc?export=view&id=12dmESvWmKVMuZEzpT7x9BpxnAXpLssOK)  
+![Task Manager detailed view of path](https://drive.google.com/thumbnail?id=12dmESvWmKVMuZEzpT7x9BpxnAXpLssOK&sz=w1000)  
 We can add extra fields in the task manager which can be found in the above picture.   
 
 
-![Task Manager detailed view of path](https://drive.google.com/uc?export=view&id=1ax_3ekELJntn1_r4oWtVuYgAUEkLhIH_)   
+![Task Manager detailed view of path](https://drive.google.com/thumbnail?id=1ax_3ekELJntn1_r4oWtVuYgAUEkLhIH_&sz=w1000)   
 
 
 Based on the above image, the PID for services.exe is 632. But wait, one of the svchost.exe processes has a PID of 384. How did svchost.exe start before services.exe? Well, it didn't. Task Manager doesn't show a Parent-Child process view.   
@@ -59,10 +59,10 @@ If a drivers a wrong data on virtual address space it will also impact other dri
 
 How to identify unusual behavior for this process in compromised machine  
 
-![Task Manager detailed view of path](https://drive.google.com/uc?export=view&id=1KpTGvwWGqQFqyHUF8MG5dAI8Ja2XfluS)   
+![Task Manager detailed view of path](https://drive.google.com/thumbnail?id=1KpTGvwWGqQFqyHUF8MG5dAI8Ja2XfluS&sz=w1000)   
 system on process hacker  
 
-![Task Manager detailed view of path](https://drive.google.com/uc?export=view&id=1zugxocLhZbpbuuNXw5O5Cq_lu7nhFg-J)   
+![Task Manager detailed view of path](https://drive.google.com/thumbnail?id=1zugxocLhZbpbuuNXw5O5Cq_lu7nhFg-J&sz=w1000)   
 system on process explorer  
 
 
@@ -87,20 +87,20 @@ Smss.exe starts `csrss.exe and wininit.exe` in session 0  - Isolated windows ses
 `csrss.exe and winlogon.exe` for session 1 - user session  
 
 Session 0  
-![session 0 tree](https://drive.google.com/uc?export=view&id=1ls3A3nyZJcywM5sMKHjHfLAXKmW7887K)    
+![session 0 tree](https://drive.google.com/thumbnail?id=1ls3A3nyZJcywM5sMKHjHfLAXKmW7887K&sz=w1000)    
 
-![session 0 prop](https://drive.google.com/uc?export=view&id=19gwnvKxDYevZYEtX-Rh8Q9dB8O9bII-f)  
+![session 0 prop](https://drive.google.com/thumbnail?id=19gwnvKxDYevZYEtX-Rh8Q9dB8O9bII-f&sz=w1000)  
 
 Session 1  
 
-![session 1 tree](https://drive.google.com/uc?export=view&id=1DAEl6YiUd30Q5bp7aNRLFZ6Hwfi5jmV0)  
+![session 1 tree](https://drive.google.com/thumbnail?id=1DAEl6YiUd30Q5bp7aNRLFZ6Hwfi5jmV0&sz=w1000)  
 
-![session 1 prop](https://drive.google.com/uc?export=view&id=1uT0RKjyYdeSsOSPSStcMmpaI2-nvGvQJ)   
+![session 1 prop](https://drive.google.com/thumbnail?id=1uT0RKjyYdeSsOSPSStcMmpaI2-nvGvQJ&sz=w1000)   
 
 
 properties of smss.exe under normal circumstance
 
-![smss.exe prop](https://drive.google.com/uc?export=view&id=1Dzwf0L7a5JGtepdO9k5BTLiMkMIBcdW2)     
+![smss.exe prop](https://drive.google.com/thumbnail?id=1Dzwf0L7a5JGtepdO9k5BTLiMkMIBcdW2&sz=w1000)     
 
 Unusual behaviour of smss.exe  
 
@@ -118,7 +118,7 @@ User-mode side of windows sub-system
 It will always run and it is a critical one  
 As mentioned above csrss.exe is a child process of smss.exe but it will self-terminate once it makes the child process.  
 
-![csrss.exe comp](https://drive.google.com/uc?export=view&id=1FV7d3c3IPElMQw0IHIuQKzggdYywiZbI) 
+![csrss.exe comp](https://drive.google.com/thumbnail?id=1FV7d3c3IPElMQw0IHIuQKzggdYywiZbI&sz=w1000) 
 
 Unusual about csrss.exe  
 
@@ -136,7 +136,7 @@ It launches
 3. lsaiso.exe within session 0  
 
 lsaiso can be shown if credential guard and key guard were enabled  
-![wininit.exe comp](https://drive.google.com/uc?export=view&id=1eBgBdos0MTj6reZAL9jSd33TK5vpIssf) 
+![wininit.exe comp](https://drive.google.com/thumbnail?id=1eBgBdos0MTj6reZAL9jSd33TK5vpIssf&sz=w1000) 
 
 Unusual about wininit.exe  
 
@@ -152,7 +152,7 @@ Responsible for handling system services - loading, interacting, start/end servi
 This process also loads device drivers marked as auto-start into memory  
 This process is parent to other key process - svchost.exe, spoolsv.exe, msmpeng,exe, dllhost.exe  
 
-![services.exe prop](https://drive.google.com/uc?export=view&id=1wE8zAYoyuuRt0lhXbkvBDRlRrX1Bh7G3)   
+![services.exe prop](https://drive.google.com/thumbnail?id=1wE8zAYoyuuRt0lhXbkvBDRlRrX1Bh7G3&sz=w1000)   
 
 Unusual behaviour of services.exe  
 
@@ -167,7 +167,7 @@ Unusual behaviour of services.exe
 Responsible for hosting and managing windows services  
 Services running in this process are implemented as DLL  
 
-![svchost gif](https://drive.google.com/uc?export=view&id=1hhuY5q4q6d0Rp2OA5xzfiU6CjqkvB8A-)    
+![svchost gif](https://drive.google.com/thumbnail?id=1hhuY5q4q6d0Rp2OA5xzfiU6CjqkvB8A-&sz=w1000)    
 
 Unusual behaiour of svchost.exe  
 
