@@ -29,7 +29,7 @@ It can be modified and added to the teams need in the organisation
 To summarize, we can use the ATT&CK Matrix to map a threat group to their tactics and techniques.  There are various methods the search can be initiated. 
 
 
-![search option usage](https://drive.google.com/uc?export=view&id=1WOdK2fn4bxhpnc8RtSBku6_zQCnalXDH)  
+![search option usage](https://drive.google.com/thumbnail?id=1WOdK2fn4bxhpnc8RtSBku6_zQCnalXDHsz=w1000)  
 
 **It was also built on github pages like this blog**
 
