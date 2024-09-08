@@ -49,3 +49,30 @@ Wi-Fi works over radio waves, which means it is subject to eavesdropping and the
 Wired Equivalent Privacy (WEP) - Easily cracked under one minute  
 Wi-Fi Protected Access (WPA) - Created by IEEE to improve the wi-fi security  
 
+Lets deep dive into some of the traffic analysis from the pcap captured from the wifi traffic data betwen the end user and the access points
+
+**Eviltwin attack**  
+
+Attacker sets up a rogue Wi-Fi access point that mimics a legitimate one, often with the same name (SSID) as the real network. Lets use the following method to check the eviltwin detection attak from wifi pcap  
+
+Using the LAN statistics feature of the wireshark, we can able to find the list of BSSID having more number of packets captured from the SSID. From the following screenshot we can see that the ec:22:80:c3:4a:68
+is the highest number of packets towards the SSID PA_NET  
+
+> **What is SSID and BSSID**   
+> In simple terms SSID were the names we can find when connecting to the wifi endpoint, whereas BSSID is the accesspoint which delivers the traffic by interacting with the SSID  
+
+![Eviltwindetection_startwithanhypothesis](https://drive.google.com/thumbnail?id=1dg5QInprH45UFChlkOTUTA8LHP1amDrO&sz=w700)  
+
+Then we are tring to filter only the list of traffics related to the ec:22:80:c3:4a:68  
+
+![Eviltwindetection_bssidfilter](https://drive.google.com/thumbnail?id=1gL_pPJXla3Yyv2IrFtiKGYe9YztKkYBM&sz=w700)  
+
+To further have a detailed view we can use the following filter wlan.fc.type_subtype == 0x0008  
+
+![Eviltwindetection_beaconfilter](https://drive.google.com/thumbnail?id=1tHOhXDCNcLtBNKBVDkj8EepKB4Ye4aMp&sz=w700)   
+
+From the following screenshot we can see the anamoly of length. So from this we can confirm that there are two different interfaces with the same BSSID ec:22:80:c3:4a:68 
+
+![Eviltwindetection_lengthanamoly](https://drive.google.com/thumbnail?id=1Use0FyXoWkpBztDUAHLLQgwkIvXklo4L&sz=w700)   
+
+
