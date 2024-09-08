@@ -7,11 +7,15 @@ tags: [vapt]     # TAG names should always be lowercase
 
 ![wifi security_intro pic](https://drive.google.com/thumbnail?id=16a8e0uLT5uw1oiJJj7jzjba3ddiXSvN7&sz=w500) 
 
+Wi-Fi networks are often more exposed than wired ones, making them a prime target for attackers. It will be an serious threat to organisation, if the actors target the users personal and organsation routers. 
+
+If you are wondering how it will impact the organiasation if the users personal router got compromised, in this case scenario attacker can drop the malwares directly to their endpoint devices which might be stealthy if the malwares were built perfectly. Also the chance of getting captured by the organisation's security perimeter is very less in this case.
+
 **IEEE 802.11**  
 
-Its the original WLAN standard. Every wireless card supports a specific 802.11 protocol  
+Think of 802.11 as the framework that enables your devices to communicate wirelessly and reliably, no matter what brand or model they are. As new versions (like 802.11n, 802.11ac, or 802.11ax) come out Wi-Fi gets faster, more efficient, and can handle more devices at once.
 
-Original 802.11 defines the 1 and 2 Mbit/s data rates over radio frequencies using Direct-Sequence Spread-Spectrum (DSSS) and Frequency Hopping Spread-Spectrum (FHSS). It is often called pure-802.11.  
+802.11 is the original WLAN standard. Every wireless card supports a specific 802.11 protocol  
 
 GPS and Zigbee make use of DSSS whereas Bluetooth is known for using FHS  
 
@@ -51,6 +55,7 @@ Wi-Fi Protected Access (WPA) - Created by IEEE to improve the wi-fi security
 
 Lets deep dive into some of the traffic analysis from the pcap captured from the wifi traffic data betwen the end user and the access points
 
+**DEMO**  
 **Eviltwin attack**  
 
 Attacker sets up a rogue Wi-Fi access point that mimics a legitimate one, often with the same name (SSID) as the real network. Lets use the following method to check the eviltwin detection attak from wifi pcap  
