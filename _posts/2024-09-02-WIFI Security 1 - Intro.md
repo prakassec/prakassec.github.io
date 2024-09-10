@@ -1,5 +1,5 @@
 ---
-title: WIFI Security 1
+title: WIFI Security 1 - Intro
 date: 2024-09-02 20:34:00 +/-TTTT
 categories: [VAPT, WIFI]
 tags: [vapt]     # TAG names should always be lowercase
