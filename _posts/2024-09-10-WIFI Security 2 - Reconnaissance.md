@@ -38,18 +38,23 @@ That ok, but why we cant transmit on the channel 13. Lets explore it further
 
 From the screenshot we can see that channel 13 is having (no IR) which means it not having intial raidation. So we are not allowed talk first to the channel.
 
+```
 2467 MHz [12] (20.0 dBm) (no IR)  
 2472 MHz [13] (20.0 dBm) (no IR)  
 2484 MHz [14] (20.0 dBm) (no IR)    
+```
 
-![wifi_security_reconnaissace](https://drive.google.com/thumbnail?id=1eRlkBUn9y5zgHnLfMSgV7T2UwKLnkuTl&sz=w300) 
-![wifi_security_reconnaissace](https://drive.google.com/thumbnail?id=1E_88YDFgnQ5Bgqt304c4BgESoGCOMTmj&sz=w300) 
-![wifi_security_reconnaissace](https://drive.google.com/thumbnail?id=1jY6niAZsNqykcale-V5KM1iu0vs8XQdI&sz=w300) 
-![wifi_security_reconnaissace](https://drive.google.com/thumbnail?id=1Rs3RbL_9e7bkpAEJEA8Yc2XetVbwNl2c&sz=w300) 
+![wifi_security_reconnaissace](https://drive.google.com/thumbnail?id=1eRlkBUn9y5zgHnLfMSgV7T2UwKLnkuTl&sz=w700)   
+
+![wifi_security_reconnaissace](https://drive.google.com/thumbnail?id=1E_88YDFgnQ5Bgqt304c4BgESoGCOMTmj&sz=w700)  
+
+![wifi_security_reconnaissace](https://drive.google.com/thumbnail?id=1jY6niAZsNqykcale-V5KM1iu0vs8XQdI&sz=w700) 
+
+![wifi_security_reconnaissace](https://drive.google.com/thumbnail?id=1Rs3RbL_9e7bkpAEJEA8Yc2XetVbwNl2c&sz=w700) 
 
 Using this command `root@root:~#  iw reg get` we can see that the channel 12,13 and 14 are in the passive-scan only. Hence we cant inject on those channels.
 
-(2457 - 2482 @ 20), (N/A, 20), (N/A), AUTO-BW, PASSIVE-SCAN  
+```(2457 - 2482 @ 20), (N/A, 20), (N/A), AUTO-BW, PASSIVE-SCAN```  
 
 ![wifi_security_reconnaissace](https://drive.google.com/thumbnail?id=1dk-Blj-vH0kO_DsRnYWgts4xoKGgtqSD&sz=w700) 
 
