@@ -1,5 +1,5 @@
 ---
-title: WIFI Security 2 - Honeypot
+title: WIFI Security 3 - Honeypot
 date: 2024-09-12 13:34:00 +/-TTTT
 categories: [VAPT, WIFI]
 tags: [vapt]     # TAG names should always be lowercase
