@@ -65,7 +65,19 @@ Last Three Characters (r-x): These are the other (world) permissions.
 > \- = no write permission for others.  
 > x = execute permission for others.  
 
+From the above concept lets check the following binary **welcome** is having the suid set or not.   
+
+![Linux Privilege Escalation](https://drive.google.com/thumbnail?id=1Zc8lq44RWPaWCf0LH-tEUGlMg6VJJDDb&sz=w700)  
+
+Observe that the welcome binary has suid bit set (or on). This means that this binary and its child processes will run with root privileges. Also from the strings analysis we can see that the welcome binary is calling the greeting binary.  
+
+![Linux Privilege Escalation](https://drive.google.com/thumbnail?id=1HSrZzTWGYohi8qSCSH_qbH0sN7-l3Ds3&sz=w700)  
+
+Delete greetings binary and then copy /bin/bash to its location and rename that to greetings.  
 
 
+![Linux Privilege Escalation](https://drive.google.com/thumbnail?id=1wlJ0qG5nk5DvWe-KQiOKuoBMLMY4FZRR&sz=w700)  
+
+By using this method we escalated the user account to root in the linux machine.  
 
 
