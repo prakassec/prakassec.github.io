@@ -1,5 +1,5 @@
 ---
-title: Linux privilege escalation 1
+title: Linux Privilege Escalation 1
 date: 2024-09-14 11:23:00 +/-TTTT
 categories: [VAPT, Privilege escalation]
 tags: [vapt]     # TAG names should always be lowercase
