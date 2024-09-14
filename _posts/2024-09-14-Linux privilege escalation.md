@@ -22,3 +22,50 @@ During an engagement, if we got the access for the low privilege user in the lin
    A user accesses another user’s privileges without involving their account in the system logs.
 
 
+**Common Methods of Privilege Escalation in Linux**  
+
+1. Sudo Misconfigurations    
+2. SUID/SGID Executables  
+3. Weak File Permissions  
+4. Exploiting Crontab Jobs  
+5. PATH Environment Variable Manipulation  
+6. NFS Misconfigurations  
+7. Password Reuse or Weak Credentials  
+8. Exploit of Service Misconfigurations  
+
+**DEMO TIME**  
+
+**Exploiting Setuid Programs**  
+
+Lets start with a small program which easily allows us to perform the privilege escalaton.  Vulnerable setuid programs on Linux systems could lead to privilege escalation attacks. In this exercise, we are using a regular user account and need to escalate the privileges to become root.   
+
+`-rwsr-xr-x`  
+
+First Character (-): This indicates the file type.  
+ 
+> \- means it is a regular file.  
+> d means it is a directory.  
+> l means it is a symbolic link.  
+
+Next Three Characters (rws): These are the owner (user) permissions.    
+
+> r = read permission for the owner.  
+> w = write permission for the owner.  
+> s = setuid (set user ID) bit, which means that when this file is executed, it runs with the permissions of the file's owner (not the person who runs it). This is why it's s instead of x (execute), as it also sets the user ID.  
+
+Next Three Characters (r-x): These are the group permissions.    
+
+> r = read permission for the group.  
+> \- = no write permission for the group.  
+> x = execute permission for the group.  
+
+Last Three Characters (r-x): These are the other (world) permissions.  
+
+> r = read permission for others.  
+> \- = no write permission for others.  
+> x = execute permission for others.  
+
+
+
+
+
