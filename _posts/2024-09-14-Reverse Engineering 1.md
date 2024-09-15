@@ -8,14 +8,14 @@ tags: [malware]     # TAG names should always be lowercase
 ![Reverse engineering](https://drive.google.com/thumbnail?id=1kJ5c2RHXj8BzwcOCVgOLG9mBucfQT4A6&sz=w500)  
 
 
-GBD (GNU Debugger)  
+**GDB (GNU Debugger)**  
 
 Debugging tool for programs written in languages like Ada, C, C++, Objective C and Golang   
 Analyze the behavior of a program at runtime, inspect variables, control program execution, and identify bugs or errors.  
 First step in learning reverse engineering is to familiarize with the basics of assembly language and to learn how to use the debuggers to analyze an executable.  
 
 
-Compilation  
+**Compilation**  
 
 During the compilation lets compare the two different ways. One in normal way and another in the gcc while enabling the debug symbols.  
 From the size of file output, file with debug enabled will be having more size than the other.  
@@ -28,5 +28,31 @@ Compiling a C file with GCC while enabling debug symbols means adding specific c
 
 1. Identify line numbers from the source code.  
 2. Map variables in the code to memory addresses.  
-3. Track the function call stack.  
+3. Track the function call stack.
+
+![Reverse engineering](https://drive.google.com/thumbnail?id=1LKylko5ayfzCYkRdqYGpD8mTVlS3nOK-&sz=w700)  
+
+![Reverse engineering](https://drive.google.com/thumbnail?id=1WyKVM42EbY4QANw157-r_QZ1zwZv14RR&sz=w700)  
+
+**Passing Arguments**  
+
+Passing arguments to a program in gdb (GNU Debugger) is done using the --args option or through the run command after starting gdb  
+
+![Reverse engineering](https://drive.google.com/thumbnail?id=1F2SIKiPhSraq_XvqPq2TQUa0yHgGVqV6&sz=w700)  
+
+![Reverse engineering](https://drive.google.com/thumbnail?id=1GpN1z7s1JHCSN_GDOEoWqYfbbpvgcUYN&sz=w700)  
+
+**Program’s Environment variables**  
+
+Some programs call custom binaries and use environment variables in their operation. And, GDB provides a way to define these for programs under analysis.  
+
+![Reverse engineering](https://drive.google.com/thumbnail?id=1qIKSInYUiEhifiNLC2koLDYEQPEhCAUO&sz=w700)  
+
+![Reverse engineering](https://drive.google.com/thumbnail?id=1maCMoiVUYpszlTQk3NVCTNTnM4TPnNE2&sz=w700)  
+
+
+
+
+
+
 
