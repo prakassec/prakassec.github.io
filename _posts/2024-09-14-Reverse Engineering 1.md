@@ -48,6 +48,15 @@ Some programs call custom binaries and use environment variables in their operat
 
 ![Reverse engineering](https://drive.google.com/thumbnail?id=1qIKSInYUiEhifiNLC2koLDYEQPEhCAUO&sz=w700)  
 
+We can observe that the program takes two arguments and returns the sum of both. It also calls a binary “mydate” (which is present in the same directory and uses environment variable “author”.  
+
+Since environment variable results in error, it also affects the mydata binary.  
+To fix this problem, the path of present working directory needs to be added to path variable.  
+The program was able to locate mydate now. However, it is still not able to read the environmental variable “author”.  
+After we set the author we can get the expected result  
+
+
+
 ![Reverse engineering](https://drive.google.com/thumbnail?id=1maCMoiVUYpszlTQk3NVCTNTnM4TPnNE2&sz=w700)  
 
 
