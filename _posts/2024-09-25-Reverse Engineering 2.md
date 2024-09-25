@@ -24,6 +24,15 @@ From the perspective of malware analysis, attaching GDB (or a similar debugger) 
    Malware often injects malicious code into other processes (process injection) to hide its presence or escalate privileges.  
    By attaching GDB we can monitor how the injection were performed, which system calls are used, how the injected code behaves in the target process.  
 
+![Reverse engineering](https://drive.google.com/thumbnail?id=1IALJ3AvDLIXM9iZ-Aml0-2RbW2Khq0I6&sz=w700)  
+
+
+![Reverse engineering](https://drive.google.com/thumbnail?id=1h5F8ewUh3YEs0cOUVqz2sjtTGPqZ5ugB&sz=w700)  
+
+
+![Reverse engineering](https://drive.google.com/thumbnail?id=1uKZj99j3Xm5FoAlzM4kolD4L8Qy0phRA&sz=w700)
+
+
 **Program with Multiple Threads**  
 
 GDB has capability to deal with multiple threads of a process.  
@@ -40,4 +49,23 @@ It can be very useful when you're debugging multi-threaded applications or malwa
 
 3. Inspecting Deadlocks and Race Conditions
 
-   If the application or malware involves deadlocks or race conditions, GDB can help investigate by examining the call stacks of all threads. You can switch between threads and inspect their state to determine which threads are waiting for locks or resources and identify potential synchronization problems.  
+   If the application or malware involves deadlocks or race conditions, GDB can help investigate by examining the call stacks of all threads. You can switch between threads and inspect their state to determine which threads are waiting for locks or resources and identify potential synchronization problems.
+
+
+```gcc sample.c -g -pthread -o sample```
+
+Above command line compile a C program with specific options that enable debugging and multi-threading support.  
+
+-pthread tells GCC to include support for POSIX threads (often referred to as pthreads), which is a threading library used in many Unix-like systems, including Linux.  
+
+
+Run the program in the background to keep interacting with the command prompt. This can be accomplished by using & character.  
+
+![Reverse engineering](https://drive.google.com/thumbnail?id=1yZ4ZYgr4lVFrT747iRmc5KKTJr7xX_XT&sz=w700)  
+
+![Reverse engineering](https://drive.google.com/thumbnail?id=1g61Hq1o7UhRNGmoIYK5IWRFPgwHN1HNz&sz=w700)
+
+
+![Reverse engineering](https://drive.google.com/thumbnail?id=1FznTzMgaF0t521JpXJyLbYlzX2UEPgvv&sz=w700)
+
+
