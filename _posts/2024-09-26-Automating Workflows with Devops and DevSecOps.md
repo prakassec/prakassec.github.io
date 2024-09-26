@@ -28,5 +28,14 @@ Lets utilise the Git and Gitlab server to perform the following operations in th
 
 Git is a distributed version control system (VCS) for managing the software source code. Git can be hosted on the cloud or on the local system. And we are utilising the Gitlab for server reporsitory hosting.  
 
+![wifi_security_reconnaissace](https://drive.google.com/thumbnail?id=1WgY5xFlvUwQivXpLHJ5qMy1U5Ycjcjb5&sz=w700)  
+
+![wifi_security_reconnaissace](https://drive.google.com/thumbnail?id=1whRaWnFuLjV_HygKPewOn1sK8cpSr84W&sz=w700)  
+
+![wifi_security_reconnaissace](https://drive.google.com/thumbnail?id=14OELWq6saKqFr70CkdhXlndcKSZRgDSi&sz=w700)  
+
+![wifi_security_reconnaissace](https://drive.google.com/thumbnail?id=1s4FYJeh8v7pbY4xosYYyMu9GW8xh4Ief&sz=w700)  
+
+![wifi_security_reconnaissace](https://drive.google.com/thumbnail?id=1PLOIkYy3QGyogwYLpKyvHcSJOfocR8_O&sz=w700)  
 
 
