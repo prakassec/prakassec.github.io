@@ -1,5 +1,5 @@
 ---
-title: Automation using /dev(?:sec)?ops/i
+title: Automating Workflows with /dev(?:sec)?ops/i
 date: 2024-09-26 12:55:00 +/-TTTT
 categories: [AUTOMATION, CODE]
 tags: [automation]     # TAG names should always be lowercase
