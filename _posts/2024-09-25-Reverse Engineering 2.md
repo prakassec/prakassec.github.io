@@ -1,7 +1,7 @@
 ---
 title: Reverse Engineering 2
 date: 2024-09-25 23:26:00 +/-TTTT
-categories: [SOC, MALWARE]
+categories: [SOC, Malware]
 tags: [malware]     # TAG names should always be lowercase
 ---
 
