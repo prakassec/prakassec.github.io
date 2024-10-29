@@ -24,3 +24,11 @@ Address Space Layout Randomization (ASLR) is a security technique that places pr
 ![Binary reversing](https://drive.google.com/thumbnail?id=1J0rfKRsbPzFXSn9ga3FMCjcjZQ2sWmYE&sz=w700) 
 
 ![Binary reversing](https://drive.google.com/thumbnail?id=1JQ-xw0RXLxPjrGrITkyYonGPAUYK0ZF6&sz=w700) 
+
+![Binary reversing](https://drive.google.com/thumbnail?id=1_RP4uu39ioogiU4lwfgbs9o0n0JSUmWx&sz=w700) 
+
+![Binary reversing](https://drive.google.com/thumbnail?id=1X6hjvtpLvi0SVA0tuYFret_8093AW65q&sz=w700) 
+
+![Binary reversing](https://drive.google.com/thumbnail?id=19DnDcF7wjSZmGvxo19w4tvQ46nPWqsp9&sz=w700) 
+
+![Binary reversing](https://drive.google.com/thumbnail?id=1KEfiOuvZvEH7WSh4xmiw7kQIr2BKdNKv&sz=w700) 
